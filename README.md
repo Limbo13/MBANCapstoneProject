@@ -5,7 +5,7 @@ For the ML part of this project, we trying to predict whether a Kickstarter proj
 
 This project consists of several files (not all of which are uploaded/complete as of right now):
 
--PrepareDataset: This file takes the multiple csv files and converts them into one file with the attributes we are interested in. The raw files were taken from https://webrobots.io/kickstarter-datasets/
+-PrepareDataset: This file takes multiple csv files and converts them into one file with the attributes we are interested in. The raw files were taken from https://webrobots.io/kickstarter-datasets/
 
 -TrainModels: This file reads in the dataset and creates models based off of the predictions we are trying to make. There are 156 combinations of primary and sub-categories; the TrainModels program uses these combinations to filter the original dataset so only records that belong to that combination are then used for training a model. As a result, 624 different models are produced.
 
