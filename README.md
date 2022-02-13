@@ -7,6 +7,8 @@ This project consists of several files (not all of which are uploaded/complete a
 
 -PrepareDataset: This file takes multiple csv files and converts them into one file with the attributes we are interested in. The raw files were taken from https://webrobots.io/kickstarter-datasets/
 
+-CreateCorpus: This file modifies the dataset to adjust money for inflation as well as doing basic nlp.
+
 -TrainModels: This file reads in the dataset and creates models based off of the predictions we are trying to make. There are 156 combinations of primary and sub-categories; the TrainModels program uses these combinations to filter the original dataset so only records that belong to that combination are then used for training a model. As a result, 624 different models are produced.
 
 -Prediction tool (still in production): Utilizing tkinter, the user will be provided with a GUI interface where they can input values for the variables we believe to be important for making the most accurate predictions possible. 
