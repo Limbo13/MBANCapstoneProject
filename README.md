@@ -1,7 +1,7 @@
 # MBANCapstoneProject
 This is the ML portion of my capstone project for the Iowa State University MBAN degree
 
-For the ML part of this project, we trying to predict whether a Kickstarter project will be successful, and how much money we expect the project to earn. We tackle both of these questions before and after the launch of the project. This results in four different possible types of predictions. The end user is provided with a tool (utilizing the tkinter package) where they can input certain values depending on whether they are trying to perform a prediction pre or post launch.
+For the ML part of this project, we are trying to predict whether a Kickstarter project will be successful, and how much money we expect the project to earn. We tackle both of these questions before and after the launch of the project. This results in four different possible types of predictions. The end user is provided with a tool (utilizing the tkinter package) where they can input certain values depending on whether they are trying to perform a prediction pre or post launch.
 
 This project consists of several files (not all of which are uploaded/complete as of right now):
 
