@@ -17,3 +17,5 @@ Not included in this repository:
 -Original dataset
 
 -Model files produced
+
+Note: Unfortunately due to the amount of time this takes to run, I was not able to fully test the process as laid out in the files, so there is a chance that some code is missing.
